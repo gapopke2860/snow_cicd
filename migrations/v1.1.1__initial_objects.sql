@@ -4,3 +4,8 @@ CREATE TABLE HELLO_WORLD
    FIRST_NAME VARCHAR
   ,LAST_NAME VARCHAR
 );
+CREATE TABLE Goodbye_World
+(   
+   First_Name varchar
+  ,Last_Name varchar
+)
