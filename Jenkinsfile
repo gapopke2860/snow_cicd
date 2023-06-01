@@ -34,7 +34,7 @@ pipeline {
 
             steps {
 
-                withCredentials([aws(accessKeyVariable:'AWS_ACCESS_KEY_ID',credentialsId:'AKIA6K2QSSTGRGIPCHZE',secretKeyVariable:'AWS_SECRET_ACCESS_KEY')]) {
+                withCredentials([aws(accessKeyVariable:'AWS_ACCESS_KEY_ID',credentialsId:'fdf98e8a-0ec7-4cb8-983a-856fbbb2d0c2',secretKeyVariable:'AWS_SECRET_ACCESS_KEY')]) {
 
                     sh "python3 -m pip install schemachange --upgrade"
 
