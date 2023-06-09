@@ -1,3 +1,4 @@
+USE database dealerships;
 CREATE SCHEMA dealerships.mart_carobar;
 USE SCHEMA dealerships.mart_carobar;
 

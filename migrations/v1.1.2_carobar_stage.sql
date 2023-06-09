@@ -1,3 +1,4 @@
+USE DATABASE dealerships;
 CREATE SCHEMA dealerships.STAGE_CAROBAR;
 use schema dealerships.STAGE_CAROBAR;
 
