@@ -1,3 +1,6 @@
+CREATE SCHEMA dealerships.mart_carobar;
+USE SCHEMA dealerships.mart_carobar;
+
 create or replace TRANSIENT TABLE DEALERSHIPS.MART_CAROBAR.CAR_SALES_FACT (
 	CUSTOMER_ID VARCHAR(50),
 	CAR_ID VARCHAR(50),
